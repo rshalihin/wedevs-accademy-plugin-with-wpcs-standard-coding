@@ -1,0 +1,20 @@
+{
+    "name": "mrs1993/wedevs-academy",
+    "description": "WeDevs Academy's learning plugin.",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "Readush Shalihin",
+            "email": "r.shalihin143@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "WeDevs\\Academy\\": "includes/"
+        },
+        "files": [ "includes/functions.php"]
+    }
+}
