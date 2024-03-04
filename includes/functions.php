@@ -46,7 +46,7 @@ function wd_ac_insert_address( $args = array() ) {
 				'%d',
 				'%s',
 			),
-			array( '%d' ),
+			array( '%d' )
 		);
 		return $update;
 	} else {
@@ -140,6 +140,6 @@ function wd_ac_delete( $id ) {
 	return $wpdb->delete(
 		$wpdb->prefix . 'ac_addresses',
 		array( 'id' => $id ),
-		array( '%d' ),
+		array( '%d' )
 	);
 }
